@@ -2,6 +2,7 @@
 This repository contains the Jupyter Notebooks used for data processing and analysis for the article “In-host population dynamics of *Mycobacterium tuberculosis* complex during active disease” (Vargas et al. 2021, https://elifesciences.org/articles/61805). Notebooks were run in order from top to bottom as listed below. All code was written in Python 2 and running code within these notebooks requires installing the necessary python packages, bioinformatics pipelines & changing the directory paths within the notebooks.
 
 (A) Find Genomic Coordinates for Epitope Peptide Sequences using BLAST
+
 (B) Create Gene Categories
 
 Replicate Isolates/
@@ -13,10 +14,15 @@ Longitudinal Isolates/
 * (B) Process Longitudinal Samples – Run Kraken on FASTQ
 
 (C) Process Replicate and Longitudinal Samples – Depth Extraction at Lineage Defining SNP sites for F2 Mixed Measure
+
 (D) Filter Replicate and Longitudinal Samples – Contamination with Kraken and F2 Mixed Measure
+
 (E) Process Replicate and Longitudinal Samples – Collect SNV Calls with Differing Alt AF between Sample Pairs
+
 (F) Code to Functionally Annotate Single Nucleotide Variants
+
 (G) PacBio Illumina Comparison - Empirical Base Pair Recall Score Positions to Drop
+
 (H) Filter Replicate and Longitudinal Samples – Contamination with Fixed SNP Threshold
 
 Replicate Isolates/
@@ -32,12 +38,12 @@ Longitudinal Isolates/
 * (E) Retrieve SNPs between Longitudinal Pairs with AF change of 70% or more
 
 * In-host SNPs with AF change of 70% analyses/
- * (A) Organize and Visualize SNPs with Circos Plot and Heatmap
- * (B) Mutational Spectrum of SNPs and AF change between Functional SNP type
- * (C) Nucleotide Diversity across Gene Categories and Epitopes
- * (D) Num SNPs vs Time Between Sample Collection
- * (E) Num SNPs vs Time Between Sample Collection for Confirmed Failure Relapse Patients
- * (F) Convergent Mutations at Pathway Level Analysis
+  * (A) Organize and Visualize SNPs with Circos Plot and Heatmap
+  * (B) Mutational Spectrum of SNPs and AF change between Functional SNP type
+  * (C) Nucleotide Diversity across Gene Categories and Epitopes
+  * (D) Num SNPs vs Time Between Sample Collection
+  * (E) Num SNPs vs Time Between Sample Collection for Confirmed Failure Relapse Patients
+  * (F) Convergent Mutations at Pathway Level Analysis
 
 * (F) Num Heterozygous SNPs in First vs Second Sample in Treatment Failure Patients
 * (G) Drug Resistance Genotype Prediction on Longitudinal Samples
@@ -58,4 +64,3 @@ SNPs from Public Samples & tSNE Homoplasy Visualization/
 * (D) Phylogenetic Convergence Test in Public Samples for In-Host SNPs
 * (E) t-SNE on Pairwise SNP Distance Matrix
 * (F) t-SNE SNV Homoplasy Visualization
-
