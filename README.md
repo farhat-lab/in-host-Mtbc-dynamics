@@ -1,5 +1,9 @@
 # in-host-Mtbc-dynamics
-This repository contains the Jupyter Notebooks used for data processing and analysis for the article “In-host population dynamics of *Mycobacterium tuberculosis* complex during active disease” (Vargas et al. 2021, https://elifesciences.org/articles/61805). Notebooks were run in order from top to bottom as listed below. All code was written in Python 2 and running code within these notebooks requires installing the necessary python packages, bioinformatics pipelines & changing the directory paths within the notebooks.
+This repository contains the Jupyter Notebooks used for data processing and analysis for the article “In-host population dynamics of *Mycobacterium tuberculosis* complex during active disease” (Vargas et al. 2021, https://elifesciences.org/articles/61805). 
+
+Notebooks were run in order from top to bottom as listed below. All code was written in Python 2 and running code within these notebooks requires installing the necessary python packages, bioinformatics pipelines & changing the directory paths within the notebooks.
+
+Note: If a notebook doesn't render on GitHub, you can view it by pasting the GitHub hyperlink to it here https://nbviewer.jupyter.org/ 
 
 (A) Find Genomic Coordinates for Epitope Peptide Sequences using BLAST
 
